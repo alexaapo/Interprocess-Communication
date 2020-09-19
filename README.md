@@ -15,9 +15,7 @@ The diseaseAggregator application will be used as follows:
 - The **input_dir** parameter: is a directory that contains subdirectories with the files to be processed by Workers. Each subdirectory will have the name of a country and will contain files with names that are DD-MM-YYYY form dates. For example input_dir could contain subdirectories China which have the following files: 
 
 /input_dir/China/21-12-2019
-
 /input_dir/China/22-12-2019
-
 /input_dir/China/23 -12-2019
 
 Each DD-MM-YYYY file contains a series of patient records where each line describes a patient who was entered/discharged to/from a hospital that day and contains the recordID, name, virus, and age. For example if the contents of the file /input_dir/Germany/02-03-2020 of the file are: 
